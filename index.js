@@ -1,11 +1,10 @@
-
-function getValue(){
+function getName(){
     var nom = document.getElementById("nom").value;
     var prenom = document.getElementById("prenom").value
-    if (nom != "Bribach " || nom != "bribach"){
-        alert("tu n'a rien a faire sur ce site")
+    if((prenom == "Ahmed" && nom == "Bribach")){   
+        
     }
-    if (prenom != "Ahmed" || prenom != "ahmed"){
-        alert("tu n'a rien a faire sur ce site")
+    else{
+        alert("pas ton compte");
     }
 }
